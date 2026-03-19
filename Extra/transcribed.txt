@@ -1,0 +1,1 @@
+Welcome to Azure Speech Service. This demo converts text into natural sounding speech experience realistic voice output powered by advanced AI technology.

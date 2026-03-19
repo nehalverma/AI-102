@@ -1,0 +1,45 @@
+<speak version="1.0"
+       xmlns="http://www.w3.org/2001/10/synthesis"
+       xmlns:mstts="https://www.w3.org/2001/mstts"
+       xml:lang="en-US">
+
+    <!-- Voice 1 -->
+    <voice name="en-US-AriaNeural">
+        <mstts:express-as style="cheerful">
+            <prosody pitch="+5%">
+                Welcome to our Azure AI Speech demonstration!
+            </prosody>
+        </mstts:express-as>
+
+        <break time="700ms"/>
+
+        Today we are exploring advanced speech synthesis capabilities.
+
+        <break time="800ms"/>
+    </voice>
+
+    <!-- Voice 2 -->
+    <voice name="en-US-GuyNeural">
+        <mstts:express-as style="newscast">
+            Let’s begin with pronunciation control.
+        </mstts:express-as>
+
+        <break strength="medium"/>
+
+        For example, the word 
+        <phoneme alphabet="ipa" ph="ˈæʒər">Azure</phoneme>
+        can be customized using phonetic notation.
+
+        <break time="600ms"/>
+    </voice>
+
+    <!-- Voice 3 -->
+    <voice name="en-US-SteffanNeural">
+        <mstts:express-as style="excited">
+            <prosody pitch="+8%">
+                Stay focused, keep learning, and let’s make this session unforgettable!
+            </prosody>
+        </mstts:express-as>
+    </voice>
+
+</speak>
